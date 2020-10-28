@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #29434e;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.LoginController">
+   <children>
+      <Label alignment="CENTER" layoutX="211.0" layoutY="90.0" prefHeight="80.0" prefWidth="281.0" text="Login" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField fx:id="loginUserName" layoutX="211.0" layoutY="204.0" prefHeight="25.0" prefWidth="281.0" promptText="Enter your Username" />
+      <PasswordField fx:id="loginPassword" layoutX="211.0" layoutY="268.0" prefHeight="25.0" prefWidth="281.0" promptText="Enter Password" />
+      <Button fx:id="loginButton" layoutX="210.0" layoutY="327.0" mnemonicParsing="false" prefHeight="42.0" prefWidth="281.0" text="Login">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="80.0" fitWidth="90.0" layoutX="312.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-java-64.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="47.0" layoutX="153.0" layoutY="199.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-user-48.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="35.0" fitWidth="47.0" layoutX="153.0" layoutY="263.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../assets/icons8-password-64.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
